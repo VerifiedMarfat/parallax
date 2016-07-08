@@ -1,0 +1,27 @@
+body,
+h1,
+h2,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 2000px;
+}
+
+.parallax {
+    background: url("/images/parallax.jpg") no-repeat center center;
+    background-size: cover;
+    height: 200px;
+
+    @media screen and (min-width: 481px) {
+        background-attachment: fixed;
+        background-position: initial;
+        background-size: contain;
+    }
+
+    @media screen and (min-width: 768px) {
+        // FIXME :: background image should be 100% in width.
+    }
+}

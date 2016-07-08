@@ -1,0 +1,30 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "A simple parallax themed static page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerifiedToken/parallax.git"
+  },
+  "keywords": [
+    "VT",
+    "verified",
+    "tokene",
+    "parallax"
+  ],
+  "author": "VT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerifiedToken/parallax/issues"
+  },
+  "homepage": "https://github.com/VerifiedToken/parallax#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.8"
+  }
+}
